@@ -4,6 +4,6 @@ services:
   container_name: iim_apache
   hostname: iim_apache
   build: ./containers/apache
-  portsdocker:
+  ports:
    - '80:80'
    - '443:443'
